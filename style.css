@@ -1,0 +1,48 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    width: 250px;
+    height: 300px;
+    border: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-box__title {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.input {
+    width: 200px;
+    height: 36px;
+}
+
+.input-title {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+/*button styles*/
+.login-button {
+    width: 70px;
+    height: 30px;
+}
+
+
+.recovery {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
