@@ -23,11 +23,17 @@ body {
     text-transform: uppercase;
     margin-bottom: 0;
     font-size: 24px;
+    width: 200px;
 }
 
 .input {
     width: 200px;
     height: 36px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
 }
 
 .input-title {
