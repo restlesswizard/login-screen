@@ -49,9 +49,14 @@ body {
     cursor: pointer;
 }
 
+
+
 .err-msg-box {
     width: 200px;
-
+    border: 1px dashed #ddd;
+    font-size: 14px;
+    text-align: center;
+    padding: 4px 0;
 }
 
 
