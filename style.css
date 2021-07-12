@@ -11,7 +11,7 @@ body {
 
 .login-box {
     width: 250px;
-    height: 300px;
+    min-height: 300px;
     border: 1px solid #eee;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ body {
 
 .input {
     width: 200px;
-    height: 36px;
+    min-height: 36px;
     font-size: 18px;
 }
 
@@ -45,8 +45,13 @@ body {
 /*button styles*/
 .login-button {
     width: 70px;
-    height: 30px;
+    min-height: 30px;
     cursor: pointer;
+}
+
+.err-msg-box {
+    width: 200px;
+
 }
 
 
